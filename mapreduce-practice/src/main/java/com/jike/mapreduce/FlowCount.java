@@ -67,7 +67,7 @@ public class FlowCount {
     }
 
     public static void main(String[] args) throws Exception {
-//        args = new String[]{WordCount.class.getClassLoader().getResource("HTTP_20130313143750.dat").getPath(),"./output"};
+        args = new String[]{WordCount.class.getClassLoader().getResource("HTTP_20130313143750.dat").getPath(),"./output"};
 
         //1.获取job信息
         Configuration conf = new Configuration();
